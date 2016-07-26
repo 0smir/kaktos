@@ -1,0 +1,43 @@
+body {
+  font-size: 16px;
+  font-family: Arial;
+  background: #fff;
+}
+h3, p {
+  margin: 0 0 10px;
+}
+.product-list {
+  border-bottom: 1px solid #999;
+  margin-bottom: 30px;
+  width: 960px;
+  max-width: 100%;
+  margin: 0 auto;
+}
+.product-tile {
+  display: inline-block;
+  width: 25%;
+  padding: 10px;
+}
+.product-tile:hover {
+  border: 1px solid red;
+}
+.product-tile h3 {
+  font-size: 16px;
+  font-weight: normal;
+}
+.product-description {
+  color: #999;
+}
+.product-recomendation {
+  width: 960px;
+  max-width: 100%;
+  margin: 0 auto;
+}
+.product-recomendation .product-tile {
+  background: #eee;
+}
+
+.label {
+  background: #4f4;
+  font-size: 12px;
+}
