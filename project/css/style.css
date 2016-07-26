@@ -43,4 +43,15 @@ h3, p {
 
 .label {
   background: #4f4;
-  font-size: 12px; }
+  font-size: 12px;
+  border-radius: 50%;
+  width: 35px;
+  height: 35px;
+  line-height: 35px;
+  vertical-align: middle;
+  float: right; }
+
+.cf::after {
+  content: '';
+  display: block;
+  clear: both; }
