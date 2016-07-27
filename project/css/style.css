@@ -77,3 +77,15 @@ h3, p {
   content: '';
   display: block;
   clear: both; }
+
+.btn {
+  width: 76px;
+  height: 20px;
+  display: block;
+  color: #686868;
+  background: #4f4;
+  border-radius: 3px;
+  margin: 0 auto; }
+
+.to-cart {
+  opacity: 0.4; }
