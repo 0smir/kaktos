@@ -3,17 +3,12 @@ $(document).ready(function(){
 
 
     $('.btn').on('click', function(event){
-        var targetElem = $(event.target);
-        var targetProduct = targetElem.closest('.product-tile');
+        var targetElem = $(this),
+            targetProduct = targetElem.closest('.product-tile');
         $(targetElem).prop('disabled', true);
-        offProduct(targetProduct);
+        $(targetProduct).addClass('to-cart').append('<p>Added to bag</p>');
     });
 
-
-    function offProduct(targetField){
-        targetField.addClass('to-cart');
-        targetField.append('<p>Added to bag</p>');
-    }
 
 
 });
