@@ -8,10 +8,5 @@ $(document).ready(function(){
         $(targetElem).prop('disabled', true);
         $(targetProduct).addClass('to-cart').append('<p>Added to bag</p>');
     });
-
-
-<<<<<<< HEAD
-
-=======
->>>>>>> master
+    
 });
