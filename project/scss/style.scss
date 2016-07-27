@@ -26,7 +26,7 @@ h3, p {
   @include breakpoint(small){width: 50%;}
   @include breakpoint(extrasmall){width: 100%;}
   padding: 10px;
-  font: 16px Arial, Helvetica, sans-serif;
+  font-size: 16px;
   vertical-align: top;
 }
 
@@ -75,12 +75,6 @@ h3, p {
     line-height: inherit;
   }
 
-  @include breakpoint(small){
-    width: 100%;
-    border-radius:0;
-    height: auto;
-    line-height: inherit;
-  }
 }
 
 .cf::after{
